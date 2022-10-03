@@ -1,3 +1,6 @@
+## Project Demo
+[Live Demo](https://ridwanullahi-code.github.io/awesome-book-project/)
+
 ## AWESOME BOOK PROJECT
 Project allow user to add desire books to the list and also delete books. It makes use of local storage to preserve the data on the web browser.
 
@@ -17,12 +20,12 @@ Project allow user to add desire books to the list and also delete books. It mak
 To make use of this project, kindly run any of the following commands.
 
 ```
-git clone https://github.com/Outkarm/team-awesome-books-project.git
+git clone https://github.com/Ridwanullahi-code/awesome-book-project.git
 ```
 or 
 
 ```
-git clone git@github.com:Outkarm/team-awesome-books-project.git
+git clone git@github.com:Ridwanullahi-code/awesome-book-project.git
 ```
 ## Contributors
 - GitHub Username: [Outkram](https://github.com/Outkarm)
