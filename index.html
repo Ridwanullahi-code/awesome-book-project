@@ -7,20 +7,24 @@
     <link rel="stylesheet" href="index.css">
     <title>Awesome Book List Project</title>
 </head>
-<body class="header">
+<body>
     <header>
+        <p>Awesome Books</p>
         <nav class="nav-container">
-            <a class="logo-link" href="#bookss">Awesome Books</a>
-        <ul class="nav-items">
-            <li class="nav-link active-btn" data-id="bookss">List</li>
-            <li class="nav-link" data-id="inputss">Add new</li>
-            <li class="nav-link" data-id="contactss">Contact</li>
-        </ul>
+            <ul class="nav-items">
+                <li class="nav-item" data-id="book-section">Collection</li>
+                <li class="nav-item" data-id="add-section">Add new</li>
+                <li class="nav-item" data-id="contact-section">Contact</li>
+            </ul>
         </nav>
-       <p class="time"></p>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
     </header>
-    
     <main class="all-sections">
+         <p class="time"></p>
         <section class="book-section sections sec1 activesec" id="bookss">
             <h2>All awesome books</h2>
             <table class="book-container">  
