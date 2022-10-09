@@ -80,7 +80,8 @@ header {
 }
 
 .hamburger.active .bar:nth-child(1) {
-  transform: translateY(10px) rotate(45deg);
+  transform: translateY(8px) rotate(45deg);
+  transition: transform 0.3s ease-in-out;
   background-color: white;
 }
 
@@ -91,6 +92,7 @@ header {
 .hamburger.active .bar:nth-child(3) {
   transform: translateY(-11px) rotate(-45deg);
   background-color: white;
+  transition: transform 0.3s ease-in-out;
 }
 
 main {
@@ -101,6 +103,12 @@ main {
   height: 81vh;
   background-blend-mode: multiply;
   position: relative;
+}
+.time {
+  text-align: right;
+  font-size: 16px;
+  padding:10px;
+  color: white;
 }
 
 section {
@@ -131,6 +139,7 @@ section {
   margin-bottom: 3rem;
   border: 1px solid grey;
   padding: 10px;
+  background-color: white;
 }
 
 .book-container tr {
@@ -140,7 +149,7 @@ section {
 }
 
 .book-container tr:nth-child(even) {
-  background-color: #f2f2f29d;
+  background-color: rgba(0, 0, 0, 0.373);
 }
 
 .book-container tr:hover {
@@ -201,6 +210,7 @@ form .add-btn {
   flex-direction: column;
   text-align: left;
   gap: 30px;
+  color:whitesmoke;
 }
 
 .contact-section span {
@@ -212,7 +222,7 @@ form .add-btn {
   margin-left: 30px;
 }
 
-.active {
+.actives {
   display: flex;
 }
 

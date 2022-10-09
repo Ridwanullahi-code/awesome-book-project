@@ -16,6 +16,8 @@ const menu = new Menu();
 menu.menuButton();
 // Method to handle backdrop
 menu.backDrop();
+// Method to close menus
+menu.menuClose();
 
 // Function to handle datetime
 const getDate = () => {
