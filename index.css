@@ -104,7 +104,7 @@ main {
 }
 
 section {
-  min-height: 100vh;
+  min-height: 80vh;
   width: 100%;
   position: absolute;
   left: 0;
@@ -114,28 +114,13 @@ section {
   align-items: center;
   justify-content: center;
 }
+.sec1, .sec3{
+  display:none;
+}
 
 [class *="section"] h2 {
   font-size: 5vw;
   color: white;
-}
-.sec1 {
-  display: none;
-  transform: translateX(0) scale(1);
-}
-
-.sec2 {
-  display: none;
-  transform: translateX(0) scale(1);
-}
-
-.sec3 {
-  display: none;
-  transform: translateX(0) scale(1);
-}
-.activesec {
-  display: flex;
-  height: 100vh;
 }
 
 .book-section {
@@ -236,9 +221,9 @@ form .add-btn {
   max-width: 100%;
   padding: 0.5rem;
   position: absolute;
-  top: 92vh;
-  left: 0.5vw;
-  right: 0.5vw;
+  top: 91vh;
+  left: 0;
+  right:0;
 }
 
 footer {
