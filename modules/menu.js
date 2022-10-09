@@ -10,7 +10,6 @@ export default class Menu{
         })
     }
     backDrop() {
-        const menu = document.querySelector('.hamburger');
         this.main.addEventListener('click', () => {
             this.menuItems.classList.remove('show');
             this.menu.classList.remove('active');

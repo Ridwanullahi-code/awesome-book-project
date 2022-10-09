@@ -12,9 +12,9 @@
         <p>Awesome Books</p>
         <nav class="nav-container">
             <ul class="nav-items">
-                <li class="nav-item" data-id="book-section">Collection</li>
-                <li class="nav-item" data-id="add-section">Add new</li>
-                <li class="nav-item" data-id="contact-section">Contact</li>
+                <li class="nav-item" id="book-section">Collection</li>
+                <li class="nav-item" id="form-section">Add new</li>
+                <li class="nav-item" id="contact-section">Contact</li>
             </ul>
         </nav>
         <div class="hamburger">
@@ -25,13 +25,13 @@
     </header>
     <main class="all-sections">
          <p class="time"></p>
-        <section class="book-section sections sec1 activesec" id="bookss">
+        <section class="book-section sections">
             <h2>All awesome books</h2>
             <table class="book-container">  
             </table>
         </section>
 
-        <section class="form-section sections sec2" id="inputss">
+        <section class="form-section sections">
             <form class="form-container">
                 <h2>Add new book here</h2>
                 <input type="text" class="title book-title" placeholder="Title" required>
@@ -39,7 +39,7 @@
                 <input type="submit" class="add-btn add-book" value="Add">
             </form>
         </section>
-        <section class="contact-section sections sec3" id="contactss">
+        <section class="contact-section sections">
           <!-- Contact Section -->
           <h2>Contact information</h2>
           <div>

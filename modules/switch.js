@@ -2,16 +2,16 @@
 export default class Switch {
     navLinks = () => {
     // Switching Through Sections
-      const allSections = document.querySelectorAll('.sections');
+      const sections = document.querySelectorAll('.sections');
       const listCont = document.querySelector('.nav-items');
       listCont.addEventListener('click', (e) => {
-        if (e.target.dataset) {
-          allSections.forEach(section => {
-            section.classList.remove();
-          })
-        }
-        const target = document.getElementById(e.target.dataset);
-        target.classList.add();
+        sections.forEach(section => {
+          if (section.classList.contains(e.target.id)){
+            section.classList.add("active");
+          } else {
+            section.classList.remove("active");
+          }
+        })
       });
     }
 } 
