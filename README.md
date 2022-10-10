@@ -2,7 +2,7 @@
 [Live Demo](https://ridwanullahi-code.github.io/awesome-book-project/)
 
 ## AWESOME BOOK PROJECT
-Project allow user to add desire books to the list and also delete books. It makes use of local storage to preserve the data on the web browser.
+Project allow user to add desire books to the list and also delete books. It makes use of local storage to preserve the data on the web browser.Built with HTML, CSS, JavaScript
 
 ## Project Goals:
 - Add books to the list
